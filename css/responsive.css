@@ -1,0 +1,80 @@
+@media screen and (min-width: 480px) {
+  
+  /********************
+  TWO COLUMN LAYOUT
+  ********************/
+  
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }
+
+  
+
+  /********************
+  PAGE: PORTFOLIO
+  ********************/
+  
+  #gallery li {
+    width: 29.3333%;
+  }
+
+  #gallery li:nth-child(3n) {
+    clear: left;
+  }
+
+
+
+  /********************
+  PAGE: ABOUT
+  ********************/
+
+  .profile-photo {
+    float: center; /* float center - video floated left, but I couldnt get site to make two colums without wrapping text under the picture - it also bunches text on right */
+    margin: 0 5% 12% 0;  /* I changed the bottom to 12% - video shoes 80px, but on my phone it didnt look right*/
+  }
+
+}
+
+
+@media screen and (min-width: 660px) {
+    
+  /********************
+  HEADER
+  ********************/
+  
+  nav {
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+  }
+  
+  #logo {
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width: 45%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  h2 {
+    font-size: 0.825em;
+    margin: 20px;
+  }
+  
+  header {
+    border-bottom: 5px solid #021CDB;
+    margin-bottom: 60px;
+  }
+}
